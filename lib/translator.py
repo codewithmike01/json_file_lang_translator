@@ -21,7 +21,7 @@ class LanguageTranslator:
   def open_json_file(self):
      output = {}
 
-     with open('./data/en.json', 'r') as data:
+     with open('./data/source.json', 'r') as data:
          json_data = list(json.load(data))
 
          for string_value in json_data:
