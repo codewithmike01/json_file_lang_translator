@@ -1,5 +1,8 @@
 # Json File Translator from soure to target language
 
+Translation of json file from source language to a target langauge
+using Google translation library in python.
+
 ## Set up
 
 - Clone the repository
@@ -17,7 +20,6 @@ cd json_file_lang_translator
 
 ## Folder structure
 
-.
 ├── data (holds json file)
 │ ├── source.json
 │
