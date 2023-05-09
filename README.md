@@ -26,7 +26,7 @@ cd json_file_lang_translator
 │ ├── source.json
 │
 ├── lib
-│ ├── **pycache**.py
+│ ├── __pycache__.py
 │ ├── translator.py
 │
 ├── app.py
@@ -52,4 +52,5 @@ python3 app.py
   - Enter the abbreviation of the source language (For English en )
   - Enter the abbreviation of the target language (For Spanish es)
 
-- Allow it to run the program, your output target json translation will be in the data folder, with the <target abbrviation name>.json
+- Allow it to run the program, your output target json translation will be in the data folder, with the `bash
+<target abbrviation name>.json`
