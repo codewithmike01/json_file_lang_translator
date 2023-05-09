@@ -3,6 +3,10 @@
 Translation of json file from source language to a target langauge
 using Google translation library in python.
 
+## Preview
+
+![image](https://github.com/Ginohmk/json_file_lang_translator/assets/58771507/af014bf1-4fea-4904-945a-e20909992760)
+
 ## Set up
 
 - Clone the repository

@@ -34,6 +34,8 @@ class LanguageTranslator:
      with open(f'{file_path}{self.target_lang}.json', 'w', newline='') as output_data:
           output_data.write(json.dumps(output))
 
+     print(f'File successfully saved in {file_path}{self.target_lang}.json')
+
      return {"message": "Saved Successfully!!"}
 
   def translate_json(self):
