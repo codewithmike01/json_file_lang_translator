@@ -22,6 +22,12 @@ cd json_file_lang_translator
 
 ```
 
+- To run test
+
+```bash
+  python3 -m unittest test.py
+```
+
 ## Folder structure
 
 ```bash
