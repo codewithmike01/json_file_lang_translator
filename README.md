@@ -26,6 +26,8 @@ cd json_file_lang_translator
 │ ├── translator.py
 │
 ├── app.py
+├── mock (For testing purpose)
+│ ├── source.json
 ├── test.py
 └── README.md
 
