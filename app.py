@@ -1,7 +1,7 @@
 from deep_translator import GoogleTranslator
 from pprint import pprint
 from lib.translator import LanguageTranslator
-import logging
+
 
 SUPPORTED_LANG = GoogleTranslator().get_supported_languages(as_dict=True)
 
