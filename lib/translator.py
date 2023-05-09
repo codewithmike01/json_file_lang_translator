@@ -10,18 +10,17 @@ class LanguageTranslator:
   Attributes: source_lang: str, target_lang: str
   """
 
-  def __init__(self, source_lang, target_lang) -> None:
+  def __init__(self, source_lang: str, target_lang: str) -> None:
       self.source_lang = source_lang
       self.target_lang = target_lang
-
 
   def translate_string(self, string_value: str):
       return GoogleTranslator(source = self.source_lang, target = self.target_lang).translate(string_value)
 
-  def open_json_file(self):
+  def open_json_file(self, file_path: str):
      output = {}
 
-     with open('./data/source.json', 'r') as data:
+     with open(file_path, 'r') as data:
          json_data = list(json.load(data))
 
          for string_value in json_data:
@@ -31,20 +30,21 @@ class LanguageTranslator:
 
      return output
 
-  def save_output_json_file(self , output):
-     with open(f'./data/{self.target_lang}.json', 'w', newline='') as output_data:
+  def save_output_json_file(self , output: dict, file_path: str):
+     with open(f'{file_path}{self.target_lang}.json', 'w', newline='') as output_data:
           output_data.write(json.dumps(output))
+
+     return {"message": "Saved Successfully!!"}
 
   def translate_json(self):
       """
       translate_json performs translations from a json file
       and saves the output into a json file
-
-
       """
 
-      output = self.open_json_file()
-      self.save_output_json_file( output)
+      output = self.open_json_file('./data/source.json')
+      self.save_output_json_file(output, './data/')
+
 
 
 
