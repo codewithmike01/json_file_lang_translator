@@ -20,6 +20,8 @@ cd json_file_lang_translator
 
 ## Folder structure
 
+```bash
+.
 ├── data (holds json file)
 │ ├── source.json
 │
@@ -32,6 +34,7 @@ cd json_file_lang_translator
 │ ├── source.json
 ├── test.py
 └── README.md
+```
 
 ## How to use
 
