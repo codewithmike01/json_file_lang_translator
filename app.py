@@ -23,9 +23,9 @@ def main():
       except KeyboardInterrupt:
         return exit()
 
-      except Exception as e:
+      except Exception:
          check_valid = False # Not valid to pass
-         print("Error : ", e)
+
          print("""
           **********************************************************
           Value you entered does not exist in supported languages
