@@ -1,6 +1,16 @@
 {
+<<<<<<< HEAD
   "Login": "Login",
   "Password": "Password",
   "Contact us": "Contact us",
   "Share": "Share"
+=======
+  "April": "April",
+  "May": "May",
+  "June": "June",
+  "July": "July",
+  "August": "August",
+  "September": "September",
+  "October": "October"
+>>>>>>> b818de741566d62a88c8e4a4577dda9780a5dfbb
 }
