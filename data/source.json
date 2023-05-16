@@ -1,16 +1,20 @@
 {
-<<<<<<< HEAD
-  "Login": "Login",
-  "Password": "Password",
-  "Contact us": "Contact us",
-  "Share": "Share"
-=======
-  "April": "April",
-  "May": "May",
-  "June": "June",
-  "July": "July",
-  "August": "August",
-  "September": "September",
-  "October": "October"
->>>>>>> b818de741566d62a88c8e4a4577dda9780a5dfbb
+  "Select Reminder(s)":"Select Reminder(s)",
+  "minutes":"minutes",
+  "Event Time":"Event Time",
+  "hour":"hour",
+  "day":"day",
+  "week":"week",
+  "month":"month",
+  "Custom":"Custom",
+  "before":"before",
+  "Please add a value here":"Please add a value here",
+  "Minutes before":"Minutes before",
+  "Hours":"Hours",
+  "Days":"Days",
+  "Weeks":"Weeks",
+  "Set Custom":"Set Custom",
+  "Turn Off Reminder":"Turn Off Reminder",
+  "Drop the month cover here...":"Drop the month cover here...",
+  "Month cover ought to be a png file":"Month cover ought to be a png file"
 }
