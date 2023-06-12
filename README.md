@@ -1,7 +1,7 @@
 # Json File Translator from soure to target language
 
 Translation of json file from source language to a target langauge
-using Google translation library in python.
+using Google deep translation library in python.
 
 ## Preview
 
